@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face { font-family: "Floris"; src: url('../fonts/Floris.otf'); }
+@font-face { font-family: "Frog"; src: url('../fonts/Frog.otf'); }
+
+* {
+	margin: 0px;
+	padding: 0px; 
+	outline: 0;
+	margin:0 auto;}
+
+body {
+	background-color: #FFFFD0;
+}
+
+#nav {
+	font-size:0.5em;
+	z-index:1;
+	display:block;
+	background: -webkit-linear-gradient(left, #D09CFA 0%, #F3CCFF 62%, #F3CCFF 100%);
+}
+	
+.menu li {
+	display: inline-block;
+	position: relative;
+}
+
+h1 {
+	font: 1.8em Floris !important;
+	text-align:center;
+	color:black;
+}
+h2 {
+	font: 1.6em Frog !important;
+	text-align:center;
+	color:black;
+}
+h3 {
+	font: 1.4em Frog !important;
+	text-align:center;
+	color:black;
+}
+h4 {
+	font: 1.2em Frog !important;
+	text-align:center;
+	color:black;
+}
