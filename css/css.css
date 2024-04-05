@@ -12,15 +12,15 @@ body {
 	background-color: #003C43;
 }
 
-#nav {
+nav {
 	max-width: 80%;
 	font-size:0.5em;
 	z-index:1;
 	display:block;
-	background: -webkit-linear-gradient(left, #E3FEF7 0%, #77B0AA 62%, #003C43 100%);
+	background: -webkit-linear-gradient(left, #003C43 0%, #77B0AA 50%, #003C43 100%)
 }
 
-#container {
+.container {
 	max-width: 80%;
 	margin: 5% auto;
 	padding: 20px;
@@ -30,10 +30,37 @@ body {
 	box-sizing: border-box;
 	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
 }
-	
+
+.menu ul {
+	display: none;
+	width: 100%;
+	position: absolute;
+	li {
+		display: block;
+		a {
+			background:#77B0AA;
+			opacity:1;
+		}
+		a:hover {
+			transition: 0.1s;
+			background:#003C43;
+			color:#E3FEF7;
+		}
+	}
+}
+
 .menu li {
 	display: inline-block;
 	position: relative;
+	a {
+		display: block;
+		text-decoration: none;
+		padding: 1vw;
+	}
+}
+
+.menu li:hover > ul {
+    display: block;
 }
 
 .gallery {
@@ -68,5 +95,15 @@ h3 {
 a {
 	font: 2.8vw Frog !important;
 	text-align:center;
-	color: #003C43;
+	color: #E3FEF7;
+}
+
+/* Menu de navegacion que sigue al scroll */
+.menu-sticky {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
