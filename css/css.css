@@ -63,14 +63,15 @@ nav {
 }
 
 .menu li:hover > ul {
-    display: block;
+	display: block;
 }
 
 .gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 
 	img {
 	    margin: 1.2vw;
