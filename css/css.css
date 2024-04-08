@@ -83,6 +83,10 @@ body {
 	img.horizontal {
 		max-width: 46.6%;
 	}
+
+	img.doble {
+		max-width: 33%;
+	}
 }
 
 h1 {
