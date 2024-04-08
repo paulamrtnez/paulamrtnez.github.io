@@ -1,4 +1,4 @@
-const nav = document.getElementsByClassName("menu");
+const nav = document.getElementById("nav");
 
 var navTop = nav.offsetTop;
 
