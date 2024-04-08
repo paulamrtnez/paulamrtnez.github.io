@@ -13,12 +13,13 @@ body {
 	background-color: #003C43;
 }
 
-nav {
-	max-width: 80%;
+#nav {
+	max-width: 100%;
+	text-align:center;
 	font-size:0.5em;
 	z-index:1;
 	display:block;
-	background: -webkit-linear-gradient(left, #003C43 0%, #77B0AA 50%, #003C43 100%)
+	background: -webkit-linear-gradient(left, #003C43 15%, #77B0AA 50%, #003C43 85%);
 }
 
 .container {
@@ -29,7 +30,7 @@ nav {
 	border-radius: 10px;
 	overflow: hidden;
 	box-sizing: border-box;
-	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 10px 35px rgba(0, 0, 0, 1.5);
 }
 
 .menu ul {
@@ -115,5 +116,4 @@ a {
 	top:0;
 	max-width:1000px;
 	width:100%;
-	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
