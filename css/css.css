@@ -88,6 +88,10 @@ body {
 	img.doble {
 		max-width: 33%;
 	}
+
+	img.individual {
+		max-width: 80%;
+	}
 }
 
 h1 {
