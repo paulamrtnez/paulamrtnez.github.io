@@ -1,6 +1,6 @@
 /* Fonts */
 @font-face { font-family: "Floris"; src: url('../fonts/Floris.otf'); }
-@font-face { font-family: "Valentine"; src: url('../fonts/DesignerValentine.otf'); }
+@font-face { font-family: "Sunny"; src: url('../fonts/SunnySpellsBasic.ttf'); }
 @font-face { font-family: "Stanberry"; src: url('../fonts/Stanberry.ttf'); }
 
 * {
@@ -26,7 +26,8 @@ body {
 .container {
 	max-width: 80%;
 	margin: 3% auto;
-	padding: 20px;
+	padding: 2vw;
+	padding-bottom: 5vw;
 	background-color: #E3FEF7;
 	border-radius: 1vw;
 	overflow: hidden;
@@ -101,19 +102,21 @@ h1 {
 }
 
 h2 {
-	font: 4vw Valentine !important;
+	font: 6vw Sunny !important;
 	text-align:center;
+	margin:  4%;
 	color: #003C43;
 }
 
 h3 {
-	font: 3vw Valentine !important;
+	font: 4vw Sunny !important;
 	text-align:center;
+	margin:  4%;
 	color: #003C43;
 }
 
 a {
-	font: 2.8vw Valentine !important;
+	font: 2.8vw Sunny !important;
 	text-align:center;
 	color: #E3FEF7;
 }
@@ -126,7 +129,7 @@ p {
 
 #boton {
 	margin: 8vw;
-	padding: 0.5vw;
+	padding: 0.75vw;
 	border-radius: 1vw;
 	text-decoration: none;
 	background:#003C43;
