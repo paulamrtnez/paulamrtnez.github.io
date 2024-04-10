@@ -37,8 +37,10 @@ body {
 
 .menu ul {
 	display: none;
-	width: 100%;
-	position: absolute;
+	width: 10vw;				
+	position: absolute;				
+	left: -2vw;
+	
 	li {
 		display: block;
 
