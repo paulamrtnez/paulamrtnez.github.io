@@ -1,6 +1,6 @@
 /* Fonts */
 @font-face { font-family: "Floris"; src: url('../fonts/Floris.otf'); }
-@font-face { font-family: "Sunny"; src: url('../fonts/SunnySpellsBasic.ttf'); }
+@font-face { font-family: "Valentine"; src: url('../fonts/DesignerValentine.otf'); }
 @font-face { font-family: "Stanberry"; src: url('../fonts/Stanberry.ttf'); }
 
 * {
@@ -104,21 +104,21 @@ h1 {
 }
 
 h2 {
-	font: 6vw Sunny !important;
+	font: 6vw Valentine !important;
 	text-align:center;
 	margin:  4%;
 	color: #003C43;
 }
 
 h3 {
-	font: 4vw Sunny !important;
+	font: 4vw Valentine !important;
 	text-align:center;
 	margin:  4%;
 	color: #003C43;
 }
 
 a {
-	font: 2.8vw Sunny !important;
+	font: 2.8vw Valentine !important;
 	text-align:center;
 	color: #E3FEF7;
 }
