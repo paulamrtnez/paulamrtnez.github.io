@@ -104,16 +104,16 @@ h1 {
 }
 
 h2 {
-	font: 6vw Valentine !important;
+	font: 5vw Valentine !important;
 	text-align:center;
-	margin:  4%;
+	margin:  2%;
 	color: #003C43;
 }
 
 h3 {
-	font: 4vw Valentine !important;
+	font: 3vw Valentine !important;
 	text-align:center;
-	margin:  4%;
+	margin:  2%;
 	color: #003C43;
 }
 
@@ -124,7 +124,7 @@ a {
 }
 
 p {
-	font: 2vw Stanberry !important;
+	font: 1.2vw Stanberry !important;
 	margin: 2vw 8vw 2vw 8vw; /* Arriba | Derecha | Abajo | Izquierda */
 	color: #003C43;
 }
